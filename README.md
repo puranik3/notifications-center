@@ -13,7 +13,7 @@ NC.init({
     position: NC.POSITION.TOP_RIGHT
 });
 ```
-- Call NC.show() to show notification. A notification has a title and a description. It can be dismissed by user by clicking the close button, or auto-dimissed in the duration specified when opening (specified in seconds). The method returns an object with a hide() method. Call it in order to dismiss the notification.
+- Call NC.show() to show notification. A notification has a title and a description. It can be dismissed by user by clicking the close button, or automatically dismissed in the duration specified when opening (specified in seconds). The method returns an object with a hide() method. Call it in order to dismiss the notification.
 ```javascript
 // Possible values for type are 'success' | 'info' | 'error'
 // This notification will close automatically in 10 seconds
